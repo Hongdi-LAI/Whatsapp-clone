@@ -13,7 +13,7 @@ function Sidebar() {
 
     const [rooms, setRooms] = useState([]);
     const [{user}, dispatch] = useStateValue();
-
+    
     useEffect(() => {
         // on any change of the snapshot, trigger
         // real-time listener for room names
@@ -30,6 +30,8 @@ function Sidebar() {
             unsubscribe();
         }
     }, []);
+
+ 
 
     return (
         <div className = "sidebar">
