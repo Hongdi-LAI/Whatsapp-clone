@@ -1,15 +1,13 @@
-import React, {useState} from 'react'
-import './InitialChatScreen.css'
-import SearchOutlined from '@material-ui/icons/SearchOutlined'
-import AttachFile from '@material-ui/icons/AttachFile'
-import MoreVert from '@material-ui/icons/MoreVert'
-import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon'
-import MicIcon from '@material-ui/icons/Mic'
-import {Avatar, IconButton} from '@material-ui/core'
+import React, {useState} from 'react';
+import './InitialChatScreen.css';
+import SearchOutlined from '@material-ui/icons/SearchOutlined';
+import AttachFile from '@material-ui/icons/AttachFile';
+import MoreVert from '@material-ui/icons/MoreVert';
+import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
+import MicIcon from '@material-ui/icons/Mic';
+import {Avatar, IconButton} from '@material-ui/core';
 
 function InitialChatScreen() {
-
-    const [input, setInput] = useState();
 
     return (
         <div className ="initialChatScreen">
