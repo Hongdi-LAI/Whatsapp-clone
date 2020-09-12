@@ -5,6 +5,7 @@ import Chat from './Chat';
 import Login from './Login';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import { useStateValue } from './StateProvider';
+import InitialChatScreen from './InitialChatScreen';
 
 function App() {
 
@@ -24,7 +25,7 @@ function App() {
                 <Chat  />
               </Route>
               <Route path = '/'>
-                <Chat />
+                <InitialChatScreen />
               </Route>
             </Switch>
           </Router>

@@ -1,0 +1,63 @@
+.initialChatScreen {
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+}
+
+.initialChatScreen__header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.initialChatScreen__headerInfo {
+    flex:1;
+}
+
+.initialChatScreen__body {
+    flex: 1;
+    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+}
+
+.initialChatScreen__body > h1 {
+    text-align: center;
+    color: gray;
+    margin-top: 150px;
+    
+}
+
+.initialChatScreen__body::-webkit-scrollbar {
+    display: none;
+}
+
+.initialChatScreen__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+}
+
+.initialChatScreen__footer > form {
+    flex: 1;
+    display: flex;
+}
+
+.initialChatScreen__footer > form > input {
+    flex: 1;
+    border-radius: 30px;
+    outline-width: 0;
+    padding: 10px;
+    border: none;
+    pointer-events: none;
+}
+
+.initialChatScreen__footer > .MuiSvgIcon-root {
+    padding: 10px;
+    color: gray;
+}
