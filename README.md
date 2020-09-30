@@ -7,7 +7,7 @@
 
 
 
-# Live Chatting App - Design of [Whatsapp-Clone](https://whatsapp-clone-847bd.web.app/)
+# Real-time Chatting App - Design of [Whatsapp-Clone](https://whatsapp-clone-847bd.web.app/)
  This app serves as a data dashboard to visualise COVID-19 pandemic situation both on a gobal scale and in each specific country
  
 
